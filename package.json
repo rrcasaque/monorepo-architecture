@@ -2,8 +2,8 @@
   "name": "monorepo-architecture",
   "version": "1.0.0",
   "main": "index.js",
-  "private":"true",
-  "workspaces":{
+  "private": "true",
+  "workspaces": {
     "packages": [
       "packages/*",
       "packages/*/*"
@@ -11,5 +11,8 @@
   },
   "repository": "https://github.com/rrcasaque/monorepo-architecture.git",
   "author": "Rafael Rocha Casaque <rrcasaque@hotmail.com>",
-  "license": "GPL-3.0-only"
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
