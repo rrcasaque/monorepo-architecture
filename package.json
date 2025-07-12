@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": "true",
+  "scripts": {
+    "next:dev": "yarn workspace @monorepo/next-client dev",
+    "angular:dev": "yarn workspace @monorepo/angular-client start"
+  },
   "workspaces": {
     "packages": [
       "packages/*",
@@ -13,7 +17,10 @@
   "author": "Rafael Rocha Casaque <rrcasaque@hotmail.com>",
   "license": "GPL-3.0-only",
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "@monorepo/eslint-config": "*"
+    "@monorepo/eslint-config": "*",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
   }
 }
