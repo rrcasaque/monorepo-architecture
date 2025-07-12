@@ -13,6 +13,7 @@
   "author": "Rafael Rocha Casaque <rrcasaque@hotmail.com>",
   "license": "GPL-3.0-only",
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "@monorepo/eslint-config": "*"
   }
 }
